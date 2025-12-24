@@ -92,12 +92,5 @@ Password: 1234
     <li>Billing system</li>
 </ul>
 
-<h2>Author</h2>
-<p>
-<strong>Agastya Singal</strong><br>
-B.Tech (2nd Year)<br>
-Python & Database Project
-</p>
-
 </body>
 
