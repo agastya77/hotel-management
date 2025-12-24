@@ -24,7 +24,7 @@ def reserve():
     duration=int(input("enter the duration of stay"))
     pers=int(input("enter the no of persons"))
     rooms=int(input("enter the no of rooms required"))
-    date=input("enter the date of check in")
+    date=input("enter the date of check in(yyyy-mm-dd)")
     coup=input("would you like to view our suites: y/n")
     if coup=="y" or coup=="Y":
         print(''' ****WELCOME TO SUNRISE SUITES****
@@ -315,8 +315,9 @@ def checkout():
 ##DEFIINING THE MAIN FUNCTION
 
 def main():
+    
     print("**************************WELCOME TO SUNSHINE HOTEL**************************")
-    print("    are you?")
+    print("    choose login type ?")
     print('''    1. admin
     2. customer''')
     ch=int(input())
